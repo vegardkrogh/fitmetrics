@@ -71,6 +71,10 @@ a:focus {
     font-weight: bold;
 }
 
+.intro-icon {
+    color: #000 !important;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -158,6 +162,14 @@ a:focus {
 
 }
 
+#about .fa {
+    font-size: 7em;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ccc;
+}
+
 
 #about p {
     font-size: 16px; 
@@ -169,6 +181,7 @@ a:focus {
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
 }
 
 

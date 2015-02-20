@@ -72,7 +72,7 @@ a:focus {
 }
 
 .navbar-custom {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
@@ -200,7 +200,7 @@ a:focus {
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 0;
+        padding-top: 120px;
     }
 
     .intro .intro-body .brand-heading {

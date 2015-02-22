@@ -26,7 +26,11 @@
     <![endif]-->
   </head>
   
-  <body class="<%= page_classes %>">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <%= partial "layouts/nav" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
+    <%= partial "layouts/scripts" %>
+
   </body>
 </html>

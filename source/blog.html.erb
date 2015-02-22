@@ -1,0 +1,39 @@
+---
+pageable: false
+per_page: 
+---
+<!--Blog Section-->
+<section id="blog" class="container content-section">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+
+
+        <% if paginate && num_pages > 1 %>
+          <p>Page <%= page_number %> of <%= num_pages %></p>
+
+          <% if prev_page %>
+            <p><%= link_to 'Previous page', prev_page %></p>
+          <% end %>
+        <% end %>
+
+        <% page_articles.each_with_index do |article, i| %>
+          <h2 class="post-title">
+            <%= link_to article.title, article %>
+          </h2>
+          <h3 class="post-date">
+            <%= article.date.strftime('%B %e %Y') %>
+          </h3>
+
+          <div class="post-body">
+            <%= article.body %>
+          </div>
+        <% end %>
+
+        <% if paginate %>
+          <% if next_page %>
+            <p><%= link_to 'Next page', next_page %></p>
+          <% end %>
+        <% end %>
+        </div>
+    </div>
+</section>

@@ -10,15 +10,15 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>FitMetrics is eating the world!</title>
+    <title>FitMetrics</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015-02-01-example-article.html"/>
     <id>http://blog.url.com/blog/2015-02-01-example-article.html</id>
     <published>2015-02-01T01:00:00+01:00</published>
-    <updated>2015-02-22T21:27:48+01:00</updated>
+    <updated>2015-02-23T12:11:46+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;img alt="Mockup of latest version of app" src="/blog/2015-02-22/iphone6_mockup_w.png" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="Mockup of latest version of app" src="/img/blog/2015-02-01-example-article-iphone6_mockup_w.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et lobortis ex, eu porttitor risus. Proin eget tellus sodales, pellentesque tortor ut, auctor nibh. Aliquam quam lorem, auctor nec ullamcorper ut, rhoncus nec eros. Aliquam erat volutpat. Nulla pellentesque ante non massa hendrerit, id dapibus mauris lacinia. Curabitur id lectus ac sem facilisis malesuada. Donec dapibus justo a luctus varius. Vestibulum luctus molestie nunc at pulvinar. Ut vestibulum mauris metus, non porttitor tortor molestie a. Nunc eu posuere sapien, a commodo urna. Quisque sodales dapibus arcu, nec fermentum lorem facilisis at.&lt;/p&gt;
 </content>
